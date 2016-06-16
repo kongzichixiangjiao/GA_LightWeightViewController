@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BCell.h
 //  GA_LightWeightViewController
 //
 //  Created by houjianan on 16/6/16.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface BCell : UITableViewCell
+
++ (UINib *)nib;
 
 @end
-

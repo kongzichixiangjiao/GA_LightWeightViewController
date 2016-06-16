@@ -15,6 +15,12 @@
 		DC915EAD1D124E470070C2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC915EAB1D124E470070C2DF /* LaunchScreen.storyboard */; };
 		DC915EB81D124E470070C2DF /* GA_LightWeightViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915EB71D124E470070C2DF /* GA_LightWeightViewControllerTests.m */; };
 		DC915EC31D124E470070C2DF /* GA_LightWeightViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915EC21D124E470070C2DF /* GA_LightWeightViewControllerUITests.m */; };
+		DC915ED21D124E6D0070C2DF /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915ED11D124E6D0070C2DF /* TableViewDataSource.m */; };
+		DC915EDB1D1252650070C2DF /* BCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915ED91D1252650070C2DF /* BCell.m */; };
+		DC915EDC1D1252650070C2DF /* BCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC915EDA1D1252650070C2DF /* BCell.xib */; };
+		DC915EE21D1256190070C2DF /* BModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915EE11D1256190070C2DF /* BModel.m */; };
+		DC915EE51D1256A10070C2DF /* BCell+ConfigureForData.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915EE41D1256A10070C2DF /* BCell+ConfigureForData.m */; };
+		DC915EE81D1257890070C2DF /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = DC915EE71D1257890070C2DF /* Store.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		DC915EBE1D124E470070C2DF /* GA_LightWeightViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_LightWeightViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC915EC21D124E470070C2DF /* GA_LightWeightViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GA_LightWeightViewControllerUITests.m; sourceTree = "<group>"; };
 		DC915EC41D124E470070C2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC915ED01D124E6D0070C2DF /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		DC915ED11D124E6D0070C2DF /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		DC915ED81D1252650070C2DF /* BCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCell.h; sourceTree = "<group>"; };
+		DC915ED91D1252650070C2DF /* BCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCell.m; sourceTree = "<group>"; };
+		DC915EDA1D1252650070C2DF /* BCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCell.xib; sourceTree = "<group>"; };
+		DC915EE01D1256190070C2DF /* BModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BModel.h; sourceTree = "<group>"; };
+		DC915EE11D1256190070C2DF /* BModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BModel.m; sourceTree = "<group>"; };
+		DC915EE31D1256A10070C2DF /* BCell+ConfigureForData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BCell+ConfigureForData.h"; sourceTree = "<group>"; };
+		DC915EE41D1256A10070C2DF /* BCell+ConfigureForData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BCell+ConfigureForData.m"; sourceTree = "<group>"; };
+		DC915EE61D1257890070C2DF /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		DC915EE71D1257890070C2DF /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,17 @@
 				DC915EA11D124E470070C2DF /* AppDelegate.m */,
 				DC915EA31D124E470070C2DF /* ViewController.h */,
 				DC915EA41D124E470070C2DF /* ViewController.m */,
+				DC915ED01D124E6D0070C2DF /* TableViewDataSource.h */,
+				DC915ED11D124E6D0070C2DF /* TableViewDataSource.m */,
+				DC915ED81D1252650070C2DF /* BCell.h */,
+				DC915ED91D1252650070C2DF /* BCell.m */,
+				DC915EDA1D1252650070C2DF /* BCell.xib */,
+				DC915EE31D1256A10070C2DF /* BCell+ConfigureForData.h */,
+				DC915EE41D1256A10070C2DF /* BCell+ConfigureForData.m */,
+				DC915EE01D1256190070C2DF /* BModel.h */,
+				DC915EE11D1256190070C2DF /* BModel.m */,
+				DC915EE61D1257890070C2DF /* Store.h */,
+				DC915EE71D1257890070C2DF /* Store.m */,
 				DC915EA61D124E470070C2DF /* Main.storyboard */,
 				DC915EA91D124E470070C2DF /* Assets.xcassets */,
 				DC915EAB1D124E470070C2DF /* LaunchScreen.storyboard */,
@@ -245,6 +273,7 @@
 			files = (
 				DC915EAD1D124E470070C2DF /* LaunchScreen.storyboard in Resources */,
 				DC915EAA1D124E470070C2DF /* Assets.xcassets in Resources */,
+				DC915EDC1D1252650070C2DF /* BCell.xib in Resources */,
 				DC915EA81D124E470070C2DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC915EDB1D1252650070C2DF /* BCell.m in Sources */,
 				DC915EA51D124E470070C2DF /* ViewController.m in Sources */,
 				DC915EA21D124E470070C2DF /* AppDelegate.m in Sources */,
+				DC915ED21D124E6D0070C2DF /* TableViewDataSource.m in Sources */,
+				DC915EE51D1256A10070C2DF /* BCell+ConfigureForData.m in Sources */,
+				DC915EE21D1256190070C2DF /* BModel.m in Sources */,
 				DC915E9F1D124E470070C2DF /* main.m in Sources */,
+				DC915EE81D1257890070C2DF /* Store.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
